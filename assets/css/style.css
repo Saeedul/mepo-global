@@ -273,3 +273,30 @@ span {
     right: 0;
     z-index: -1;
 }
+
+/* ---------- faq css -----------  */
+
+.faq-section .accordion-item {
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 3px 6px rgba(142, 142, 142, .16);
+}
+
+.faq-section .accordion-item button {
+    position: relative;
+    padding: 18px 25px;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: left;
+    background-color: #fff;
+    color: #1d2a5d;
+}
+
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../img/faq/accordion.svg);
+}
+
+.accordion-button:focus {
+    box-shadow: none;
+}
