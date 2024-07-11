@@ -573,4 +573,8 @@ span {
         top: 90px;
         filter: blur(240px);
     }
+
+    .header-image {
+        display: none;
+    }
 }
