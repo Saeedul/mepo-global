@@ -285,6 +285,25 @@ span {
     z-index: -1;
 }
 
+/* ---------- reservation content ---------- */
+.carousel-image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 50;
+  }
+
+  .carousel-image-container img {
+    max-height: 700px;
+    max-width: 100%;
+    object-fit: contain;
+  }
+
+  .reservation-text-title {
+    padding-bottom: 20px;
+  }
+
 /* ---------- faq css -----------  */
 
 .faq-section .accordion-item {
@@ -543,6 +562,21 @@ span {
 }
 
 @media screen and (max-width: 925px) {
+    .header-hero-content{
+        padding-top: 50px;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        background-color: #ffffff; /* Add background color */
+        border: 1px solid #cccccc; /* Add border if needed */
+        border-radius: 5px; /* Optional: Add border-radius */
+        padding: 10px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        background-color: #f1f1f1; /* Change background color on hover */
+    }
+    
     .get-started .info-text{
         text-align: center;
     }
@@ -576,5 +610,9 @@ span {
 
     .header-image {
         display: none;
+    }
+
+    .reservation-text {
+        text-align: center;
     }
 }
