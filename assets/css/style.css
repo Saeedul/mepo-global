@@ -292,40 +292,34 @@ span {
     align-items: center;
     height: 100%;
     width: 50;
-  }
+}
 
-  .carousel-image-container img {
+.carousel-image-container img {
     max-height: 700px;
     max-width: 100%;
     object-fit: contain;
-  }
+}
 
-  .reservation-text-title {
+.reservation-text-title {
     padding-bottom: 20px;
-  }
-
-  .wrapper
-{
-	padding-bottom: 90px;
 }
 
-.divider
-{
-	position: relative;
-	margin-top: 90px;
-	height: 1px;
+.divider {
+    position: relative;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    height: 1px;
 }
 
-.div-transparent:before
-{
-	content: "";
-	position: absolute;
-	top: 0;
-	left: 5%;
-	right: 5%;
-	width: 90%;
-	height: 1px;
-	background-image: linear-gradient(to right, transparent, rgb(48,49,51), transparent);
+.div-transparent:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 5%;
+    right: 5%;
+    width: 90%;
+    height: 1px;
+    background-image: linear-gradient(to right, transparent, rgb(48, 49, 51), transparent);
 }
 
 /* ---------- faq css -----------  */
@@ -534,7 +528,7 @@ span {
 }
 
 .footer-about .social li a {
-    font-size:  20px;
+    font-size: 20px;
     color: #747e88;
     transition: all .3s ease-out 0s;
 }
@@ -586,32 +580,36 @@ span {
 }
 
 @media screen and (max-width: 925px) {
-    .header-hero-content{
+    .header-hero-content {
         padding-top: 50px;
     }
 
     .navbar-nav .nav-item .nav-link {
-        background-color: #ffffff; /* Add background color */
-        border: 1px solid #cccccc; /* Add border if needed */
-        border-radius: 5px; /* Optional: Add border-radius */
+        background-color: #ffffff;
+        /* Add background color */
+        border: 1px solid #cccccc;
+        /* Add border if needed */
+        border-radius: 5px;
+        /* Optional: Add border-radius */
         padding: 10px;
     }
 
     .navbar-nav .nav-item .nav-link:hover {
-        background-color: #f1f1f1; /* Change background color on hover */
+        background-color: #f1f1f1;
+        /* Change background color on hover */
     }
-    
-    .get-started .info-text{
+
+    .get-started .info-text {
         text-align: center;
     }
 
-    .get-started .items-box{
+    .get-started .items-box {
         display: grid;
         grid-template-columns: auto auto;
         justify-content: space-evenly;
         padding: 50px 0;
     }
-    
+
     .get-started .items-box .item-container .item {
         display: flex;
         align-items: center;
@@ -626,7 +624,7 @@ span {
         margin-bottom: 10px;
     }
 
-    .get-started .items-box:before{
+    .get-started .items-box:before {
         height: 400px;
         top: 90px;
         filter: blur(240px);
